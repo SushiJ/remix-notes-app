@@ -1,5 +1,7 @@
+import NewNote from "~/component/NewNote"
+
 export default function NotesPage() {
-  return <section>
-    <h1>My notes</h1>
-  </section>
+  return <main className="">
+    <h1><NewNote /></h1>
+  </main>
 }
