@@ -1,5 +1,5 @@
 export default function NewNote() {
-  return <form method="post" className="flex flex-col items-center my-4 text-black">
+  return <form method="post" className="flex flex-col items-center my-4 bg-gray-600 rounded-md  max-w-3xl mx-auto">
     <p className="text-2xl flex flex-col items-center my-2 text-gray-100">
       <label className="text-3xl my-2" htmlFor="title">Title</label>
       <input className="rounded-md text-teal-800" type="text" name="title" required />

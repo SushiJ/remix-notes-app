@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import stylesheet from "~/tailwind.css";
+import Navbar from "./component/Navbar";
 
 export const links = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -26,6 +27,7 @@ export default function App() {
         <Links />
       </head>
       <body className="max-w-5xl bg-gray-700 text-gray-100 mx-auto">
+        <Navbar />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
