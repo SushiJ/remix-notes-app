@@ -6,8 +6,9 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+
 import stylesheet from "~/tailwind.css";
-import Navbar from "./component/Navbar";
+import Navbar from "~/component/Navbar";
 
 export const links = () => [
   { rel: "stylesheet", href: stylesheet },
