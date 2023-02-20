@@ -6,7 +6,7 @@ export default function NoteList({ notes }) {
           <article>
             <header>
               <ul>
-                <li className="text-xl text-gray-300 text-center flex justify-between my-2">
+                <li className="text-lg text-gray-300 text-center flex justify-between my-2">
                   #{idx + 1}
                   <li className="mx-4 text-xs my-auto text-gray-400">
                     <span className="mx-2">
@@ -26,7 +26,7 @@ export default function NoteList({ notes }) {
               </ul>
               <h2 className="text-xl text-gray-200 my-2">{note.title}</h2>
             </header>
-            <p className="text-xl text-gray-300">{note.content}</p>
+            <p className="text-md text-gray-300">{note.content}</p>
           </article>
         </li>
       ))}
