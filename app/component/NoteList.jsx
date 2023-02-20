@@ -26,7 +26,7 @@ export default function NoteList({ notes }) {
               </ul>
               <h2 className="text-xl text-gray-200 my-2">{note.title}</h2>
             </header>
-            <p className="text-xl text-gray-300 break-before-all">{note.content}</p>
+            <p className="text-xl text-gray-300">{note.content}</p>
           </article>
         </li>
       ))}
